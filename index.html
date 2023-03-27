@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is the best site to deliver the best food!">
+    <meta name="author" content="Abdelrahman Khaled">
+    <meta name="theme-color" content="#ffb800">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Normalize Library -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <title>Foodwagon</title>
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header>
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img src="images/logo.svg" alt="">
+          <span>foodwaGon</span>
+        </a>
+        <div class="burger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav>
+          <p>
+            <span>Deliver to:</span> <i class="fa-solid fa-location-dot"></i> Current Location <span>Mirpur 1 Bus Stand, Dhaka</span>
+          </p>
+          <form>
+            <div class="input-search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="search" name="Search-word" placeholder="Search Food">
+            </div>
+            <button type="submit"><i class="fas fa-user"></i> Login</button>
+          </form>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Landing Section -->
+    <section class="landing">
+      <div class="container">
+        <div class="text">
+          <h1>Are you starving?</h1>
+          <h1>Within a few clicks, find meals thatare accessible near you</h1>
+          <div class="card">
+            <ul class="options">
+              <li class="active"><i class="fa-solid fa-motorcycle"></i> Delivery</li>
+              <li><i class="fa-solid fa-bag-shopping"></i> Pickup</li>
+            </ul>
+            <form action="orders.php">
+              <div class="input">
+                <i class="fas fa-location-dot"></i>
+                <input type="text" name="Address" placeholder="Enter Your Address" required>
+              </div>
+              <input type="submit" value="Find Food" class="main-btn">
+            </form>
+          </div>
+        </div>
+        <div class="image">
+          <img src="images/hero-header.avif" alt="">
+        </div>
+      </div>
+    </section>
+    <!-- End Landing Section -->
+    <!-- Start Discounts Section -->
+    <section class="discount">
+      <div class="container">
+        <div class="box">
+          <div class="image">
+            <img src="images/discount-item-1.avif" alt="">
+            <div class="percent">
+              <span>10</span>
+              <span>% <br> Off</span>
+            </div>
+          </div>
+          <div class="text">
+            <h3>Flat Hill Slingback</h3>
+            <p>6 days Remaining</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/discount-item-2.avif" alt="">
+            <div class="percent">
+              <span>25</span>
+              <span>% <br> Off</span>
+            </div>
+          </div>
+          <div class="text">
+            <h3>Flat Hill Slingback</h3>
+            <p>6 days Remaining</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/discount-item-3.avif" alt="">
+            <div class="percent">
+              <span>15</span>
+              <span>% <br> Off</span>
+            </div>
+          </div>
+          <div class="text">
+            <h3>Flat Hill Slingback</h3>
+            <p>6 days Remaining</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/discount-item-4.avif" alt="">
+            <div class="percent">
+              <span>20</span>
+              <span>% <br> Off</span>
+            </div>
+          </div>
+          <div class="text">
+            <h3>Flat Hill Slingback</h3>
+            <p>6 days Remaining</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Discounts Section -->
+    <!-- Start Instructions Section -->
+    <section class="instructions">
+      <div class="container">
+        <h2 class="section-heading">How does it work</h2>
+        <div class="instructions-content">
+          <div class="card">
+            <img src="images/location.avif" alt="">
+            <div class="text">
+              <h3>Select location</h3>
+              <p>Choose the location where your food will be delivered.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/order.avif" alt="">
+            <div class="text">
+              <h3>Choose order</h3>
+              <p>Check over hundreds of menus to pick your favorite food</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/pay.avif" alt="">
+            <div class="text">
+              <h3>Pay advanced</h3>
+              <p>It's quick, safe, and simple. Select several methods of payment</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/meals.avif" alt="">
+            <div class="text">
+              <h3>Enjoy meals</h3>
+              <p>Food is made and delivered directly to your home.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Instructions Section -->
+    <!-- Start Popular Items Section -->
+    <section class="popular-items">
+      <div class="container">
+        <h2 class="section-heading">Popular items</h2>
+        <div class="popular-items-content">
+          <div class="box">
+            <img src="images/cheese-burger.avif" alt="">
+            <div class="text">
+              <h3>Cheese Burger</h3>
+              <p><i class="fas fa-location-dot"></i> Burger Arena</p>
+              <span>$3.88</span>
+              <a href="#" class="main-btn">Order Now</a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/toffes-cake.avif" alt="">
+            <div class="text">
+              <h3>Toffe's Cake</h3>
+              <p><i class="fas fa-location-dot"></i> Top Sticks</p>
+              <span>$4.00</span>
+              <a href="#" class="main-btn">Order Now</a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/dancake.avif" alt="">
+            <div class="text">
+              <h3>Dancake</h3>
+              <p><i class="fas fa-location-dot"></i> Cake World</p>
+              <span>$7.00</span>
+              <a href="#" class="main-btn">Order Now</a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/crispy-sandwitch.avif" alt="">
+            <div class="text">
+              <h3>Crispy Sandwitch</h3>
+              <p><i class="fas fa-location-dot"></i> Fastfood Dine</p>
+              <span>$3.00</span>
+              <a href="#" class="main-btn">Order Now</a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/thai-soup.avif" alt="">
+            <div class="text">
+              <h3>Thai Soup</h3>
+              <p><i class="fas fa-location-dot"></i> Foody Man</p>
+              <span>$8.50</span>
+              <a href="#" class="main-btn">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Popular Items Section -->
+    <!-- Start Restauransts Section -->
+    <section class="restaurants">
+      <div class="container">
+        <h2 class="section-heading">Featured Restaurants</h2>
+        <div class="restaurants-content">
+          <div class="box">
+            <div class="image">
+              <img src="images/food-world.avif" alt="">
+              <ul>
+                <li><i class="fa-solid fa-tag"></i> 20% off</li>
+                <li><i class="fa-solid fa-clock"></i> Fast</li>
+              </ul>
+            </div>
+            <div class="content">
+              <div class="info">
+                <img src="images/food-world-logo.avif" alt="">
+                <div class="text">
+                  <h3>Food World</h3>
+                  <p><i class="fas fa-star"></i> 45</p>
+                </div>
+              </div>
+              <p class="red">Opens Tomorrow</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/pizza-hub.avif" alt="">
+              <ul>
+                <li><i class="fa-solid fa-tag"></i> 20% off</li>
+                <li><i class="fa-solid fa-clock"></i> Fast</li>
+              </ul>
+            </div>
+            <div class="content">
+              <div class="info">
+                <img src="images/pizzahub-logo.avif" alt="">
+                <div class="text">
+                  <h3>Pizza Hub</h3>
+                  <p><i class="fas fa-star"></i> 40</p>
+                </div>
+              </div>
+              <p class="red">Opens Tomorrow</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/donuts-hut.avif" alt="">
+              <ul>
+                <li><i class="fa-solid fa-tag"></i> 20% off</li>
+                <li><i class="fa-solid fa-clock"></i> Fast</li>
+              </ul>
+            </div>
+            <div class="content">
+              <div class="info">
+                <img src="images/donuts-hut-logo.avif" alt="">
+                <div class="text">
+                  <h3>Donuts Hut</h3>
+                  <p><i class="fas fa-star"></i> 50</p>
+                </div>
+              </div>
+              <p class="green">Opens Now</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/donuthut.avif" alt="">
+              <ul>
+                <li><i class="fa-solid fa-tag"></i> 20% off</li>
+                <li><i class="fa-solid fa-clock"></i> Fast</li>
+              </ul>
+            </div>
+            <div class="content">
+              <div class="info">
+                <img src="images/donut-hut-logo.avif" alt="">
+                <div class="text">
+                  <h3>Donut Hut</h3>
+                  <p><i class="fas fa-star"></i> 50</p>
+                </div>
+              </div>
+              <p class="green">Opens Now</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/ruby-tuesday.avif" alt="">
+              <ul>
+                <li><i class="fa-solid fa-tag"></i> 20% off</li>
+                <li><i class="fa-solid fa-clock"></i> Fast</li>
+              </ul>
+            </div>
+            <div class="content">
+              <div class="info">
+                <img src="images/ruby-tuesday-logo.avif" alt="">
+                <div class="text">
+                  <h3>Ruby Tuesday</h3>
+                  <p><i class="fas fa-star"></i> 50</p>
+                </div>
+              </div>
+              <p class="green">Opens Now</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/kuakata.avif" alt="">
+              <ul>
+                <li><i class="fa-solid fa-tag"></i> 20% off</li>
+                <li><i class="fa-solid fa-clock"></i> Fast</li>
+              </ul>
+            </div>
+            <div class="content">
+              <div class="info">
+                <img src="images/kuakata-logo.avif" alt="">
+                <div class="text">
+                  <h3>Kuakata Fried Chicken</h3>
+                  <p><i class="fas fa-star"></i> 50</p>
+                </div>
+              </div>
+              <p class="green">Opens Now</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/red-square.avif" alt="">
+              <ul>
+                <li><i class="fa-solid fa-tag"></i> 20% off</li>
+                <li><i class="fa-solid fa-clock"></i> Fast</li>
+              </ul>
+            </div>
+            <div class="content">
+              <div class="info">
+                <img src="images/red-square-logo.avif" alt="">
+                <div class="text">
+                  <h3>Red Square</h3>
+                  <p><i class="fas fa-star"></i> 50</p>
+                </div>
+              </div>
+              <p class="green">Opens Now</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/taco-bell.avif" alt="">
+              <ul>
+                <li><i class="fa-solid fa-tag"></i> 20% off</li>
+                <li><i class="fa-solid fa-clock"></i> Fast</li>
+              </ul>
+            </div>
+            <div class="content">
+              <div class="info">
+                <img src="images/taco-bell-logo.avif" alt="">
+                <div class="text">
+                  <h3>Taco Bell</h3>
+                  <p><i class="fas fa-star"></i> 50</p>
+                </div>
+              </div>
+              <p class="green">Opens Now</p>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="main-btn">View All <i class="fas fa-angle-right"></i></a>
+      </div>
+    </section>
+    <!-- End Restauransts Section -->
+    <!-- Start Categories Section -->
+    <section class="categories">
+      <div class="container">
+        <div class="header">
+          <h2 class="section-heading">Search By Food</h2>
+          <div class="header-content">
+            <a href="#" class="main-btn">View All <i class="fas fa-angle-right"></i></a>
+            <ul class="arrows">
+              <li><a href="#"><i class="fas fa-angle-left fa-xl"></i></a></li>
+              <li><a href="#"><i class="fas fa-angle-right fa-xl"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="categories-content">
+          <div class="card">
+            <img src="images/search-pizza.avif" alt="">
+            <h3>Pizza</h3>
+          </div>
+          <div class="card">
+            <img src="images/burger.avif" alt="">
+            <h3>Burger</h3>
+          </div>
+          <div class="card">
+            <img src="images/noodles.avif" alt="">
+            <h3>Noodles</h3>
+          </div>
+          <div class="card">
+            <img src="images/sub-sandwich.avif" alt="">
+            <h3>Sub-Sandwitches</h3>
+          </div>
+          <div class="card">
+            <img src="images/chowmein.avif" alt="">
+            <h3>Chowmein</h3>
+          </div>
+          <div class="card">
+            <img src="images/steak.avif" alt="">
+            <h3>Steak</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Categories Section -->
+    <!-- Start Features Section -->
+    <section class="features">
+      <div class="container">
+        <div class="features-content">
+          <div class="card">
+            <img src="images/discounts.avif" alt="">
+            <h3>Daily Discounts</h3>
+          </div>
+          <div class="card">
+            <img src="images/live-tracking.avif" alt="">
+            <h3>Live Tracking</h3>
+          </div>
+          <div class="card">
+            <img src="images/quick-delivery.avif" alt="">
+            <h3>Quick Delivery</h3>
+          </div>
+        </div>
+        <div class="app">
+          <div class="image">
+            <img src="images/phone-cta-one.avif" alt="">
+          </div>
+          <div class="text">
+            <h2>Install the app</h2>
+            <p>
+              It's never been easier to order food. Look for the finest discounts and you'll be lost in a world of delectable food.
+            </p>
+            <div class="install">
+              <a href="#"><img src="images/app-store.svg" alt=""></a>
+              <a href="#"><img src="images/google-play.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Features Section -->
+    <!-- Start Banners Section -->
+    <section class="banners">
+      <div class="container">
+        <div class="card">
+          <div class="text">
+            <h2>Best deals <span>Crispy Sandwiches</span></h2>
+            <p>
+              Enjoy the large size of sandwiches. Complete your meal with the perfect slice of sandwiches.
+            </p>
+            <a href="#" class="main-btn">Proceed To Order <i class="fas fa-angle-right"></i></a>
+          </div>
+          <div class="image">
+            <img src="images/crispy-sandwiches.avif" alt="">
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img src="images/fried-chicken.avif" alt="">
+          </div>
+          <div class="text">
+            <h2>Celebrate parties with <span>Fried Chicken</span></h2>
+            <p>
+              Get the best fried chicken smeared with a lip smacking lemon chili flavor. Check out best deals for fried chicken.
+            </p>
+            <a href="#" class="main-btn">Proceed To Order <i class="fas fa-angle-right"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="text">
+            <h2>Wanna eat hot & <span>spicy Pizza?</span></h2>
+            <p>
+              Pair up with a friend and enjoy the hot and crispy pizza pops. Try it with the best deals.
+            </p>
+            <a href="#" class="main-btn">Proceed To Order <i class="fas fa-angle-right"></i></a>
+          </div>
+          <div class="image">
+            <img src="images/pizza.avif" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Banners Section -->
+    <!-- Start Advertisement Section -->
+    <section class="advertisement">
+      <div class="container">
+        <h2>
+          Are you ready to order
+          <br>
+          with the best deals?
+        </h2>
+        <a href="#" class="main-btn">Proceed To Order <i class="fas fa-angle-right"></i></a>
+      </div>
+    </section>
+    <!-- End Advertisement Section -->
+    <!-- Start Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-top">
+          <h3>OUR TOP CITIES</h3>
+          <div class="content">
+            <ul class="col">
+              <li><a href="#">San Francisco</a></li>
+              <li><a href="#">Miami</a></li>
+              <li><a href="#">San Diego</a></li>
+              <li><a href="#">East Bay</a></li>
+              <li><a href="#">Long Beach</a></li>
+            </ul>
+            <ul class="col">
+              <li><a href="#">Los Angeles</a></li>
+              <li><a href="#">Washington DC</a></li>
+              <li><a href="#">Seattle</a></li>
+              <li><a href="#">Portland</a></li>
+              <li><a href="#">Nashville</a></li>
+            </ul>
+            <ul class="col">
+              <li><a href="#">New York City</a></li>
+              <li><a href="#">Orange County</a></li>
+              <li><a href="#">Atlanta</a></li>
+              <li><a href="#">Charlotte</a></li>
+              <li><a href="#">Denver</a></li>
+            </ul>
+            <ul class="col">
+              <li><a href="#">Chicago</a></li>
+              <li><a href="#">Phoenix</a></li>
+              <li><a href="#">Las Vegas</a></li>
+              <li><a href="#">Sacramento</a></li>
+              <li><a href="#">Oklahoma City</a></li>
+            </ul>
+            <ul class="col">
+              <li><a href="#">Columbus</a></li>
+              <li><a href="#">New Mexico</a></li>
+              <li><a href="#">Albuquerque</a></li>
+              <li><a href="#">Sacramento</a></li>
+              <li><a href="#">New Orleans</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-middle">
+          <div class="col">
+            <h3>COMPANY</h3>
+            <ul class="links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>CONTACT</h3>
+            <ul class="links">
+              <li><a href="#">Help & Support</a></li>
+              <li><a href="#">Partner with us</a></li>
+              <li><a href="#">Ride with us</a></li>
+              <li><a href="#">Ride with us</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>LEGAL</h3>
+            <ul class="links">
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Refund & Cancellation</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>LEGAL</h3>
+            <ul class="links">
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Refund & Cancellation</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>FOLLOW US</h3>
+            <ul class="social-icons">
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+            <h2>
+              Receive exclusive offers and
+              <br>
+              discounts in your mailbox
+            </h2>
+            <form action="subscribes.php">
+              <div class="input">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" name="Email" placeholder="Enter Email" required>
+              </div>
+              <input type="submit" value="Subscribe" class="main-btn">
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>All rights Reserved © Foodwagon, 2023</p>
+          <p>Made with 💛 by <span>Abdelrahman Khaled</span></p>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>
